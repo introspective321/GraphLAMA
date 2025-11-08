@@ -7,3 +7,8 @@ __pycache__/
 *.pyc
 *.json
 *.out
+
+# Downloaded and processed datasets
+data/cora_raw/
+data/cora_processed/
+*.pt
