@@ -2,6 +2,22 @@
 
 This repository contains the official implementation and resources for GraphLAMA, an approach for efficiently adapting graph language models with limited annotations. The paper has been accepted to KDD 2025.
 
+## Quick Start
+
+**NEW**: To run the code end-to-end with minimal setup, see [RUN_END_TO_END.md](RUN_END_TO_END.md).
+
+For a quick demo:
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+pip install torch_geometric transformers
+python3 simple_demo.py
+```
+
+Or use the interactive runner:
+```bash
+python3 run_end_to_end.py
+```
+
 ### 1. Environment Preparation
 ```shell
 # Python
